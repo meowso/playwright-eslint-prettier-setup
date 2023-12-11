@@ -1,7 +1,7 @@
 {
   "name": "@meowsos/playwright-setup",
-  "version": "0.0.6",
-  "description": "Modern Eslint + Prettier setup for Playwright Typescript projects",
+  "version": "0.0.8",
+  "description": "Modern Eslint and Prettier setup for Playwright Typescript projects",
   "workspaces": [
     "packages/*"
   ],
@@ -24,7 +24,6 @@
   "scripts": {
     "clean": "git clean -fXd",
     "bump": "npx npm-check-updates -u && npm install",
-    "publish": "npm publish && npm run publish-eslint-config && npm run publish-prettier-config",
     "publish-eslint-config": "npm publish --workspace @meowsos/eslint-config",
     "publish-prettier-config": "npm publish --workspace @meowsos/prettier-config"
   },
