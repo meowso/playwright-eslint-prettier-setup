@@ -1,10 +1,8 @@
 {
-  "name": "@meowsos/playwright-setup",
-  "version": "0.0.2",
-  "description": "Modern Eslint + Prettier setup for Playwright Typescript projects",
-  "workspaces": [
-    "packages/*"
-  ],
+  "name": "typescript-playwright-eslint-config",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "Modern eslint settings for Playwright Typescript projects",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/meowso/playwright-hero.git"
@@ -23,12 +21,7 @@
   ],
   "scripts": {
     "clean": "git clean -fXd",
-    "bump": "npx npm-check-updates -u && npm install",
-    "publish-eslint-config": "npm publish --workspace @meowsos/eslint-config",
-    "publish-prettier-config": "npm publish --workspace @meowsos/prettier-config"
-  },
-  "publishConfig": {
-    "access": "public"
+    "bump": "npx npm-check-updates -u && npm install"
   },
   "author": "Meowso <m3au@pm.me> (http://about.me/bpalma)",
   "license": "ISC",

@@ -1,0 +1,27 @@
+{
+  "name": "@meowsos/eslint-config",
+  "version": "0.0.1",
+  "main": "eslint-config.js",
+  "scripts": {
+    "clean": "git clean -fXd",
+    "bump": "npx npm-check-updates -u && npm install",
+    "publish-manual": "npm publish"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@playwright/test": ">= 1.40.1",
+    "@types/node": ">= 20",
+    "@typescript-eslint/eslint-plugin": ">= 6",
+    "@typescript-eslint/parser": ">= 6",
+    "eslint-config-prettier": ">= 9",
+    "eslint-plugin-playwright": ">= 0",
+    "eslint-plugin-prettier": ">= 5",
+    "eslint-plugin-sonarjs": ">= 0",
+    "eslint-plugin-unicorn": ">= 49",
+    "eslint": ">= 8",
+    "prettier": ">= 3",
+    "typescript": ">= 5"
+  }
+}
