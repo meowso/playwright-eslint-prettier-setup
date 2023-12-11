@@ -1,6 +1,6 @@
 {
   "name": "@meowsos/playwright-setup",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Modern Eslint + Prettier setup for Playwright Typescript projects",
   "workspaces": [
     "packages/*"

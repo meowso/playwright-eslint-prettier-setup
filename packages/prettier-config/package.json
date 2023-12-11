@@ -1,7 +1,7 @@
 {
   "name": "@meowsos/prettier-config",
-  "version": "0.0.1",
-  "main": "prettier-config.js",
+  "version": "0.0.2",
+  "main": "prettier-config.json",
   "scripts": {
     "clean": "git clean -fXd",
     "bump": "npx npm-check-updates -u && npm install",
