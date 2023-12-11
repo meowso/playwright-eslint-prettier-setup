@@ -1,11 +1,11 @@
 {
-  "name": "@meowso/playwright-hero",
+  "name": "playwright-hero",
   "version": "0.0.1",
-  "description": "Modern eslint settings for Playwright Typescript projects",
+  "description": "Modern eslint settings for a Playwright Typescript project",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/meowso/playwright-hero.git"
+    "url": "meowso/playwright-hero"
   },
   "keywords": [
     "playwright",
@@ -23,7 +23,11 @@
     "build": "tsc",
     "bump": "npx npm-check-updates -u && npm install"
   },
-  "author": "Meowso <m3au@pm.me> (http://about.me/bpalma)",
+  "author": {
+    "name": "Meowso",
+    "email": "m3au@pm.me",
+    "url": "http://about.me/bpalma"
+  },
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.40.1",
@@ -38,9 +42,5 @@
     "eslint-plugin-unicorn": "^49.0.0",
     "prettier": "^3.1.0",
     "typescript": "^5.3.2"
-  },
-  "bugs": {
-    "url": "https://github.com/meowso/playwright-hero/issues"
-  },
-  "homepage": "https://github.com/meowso/playwright-hero#readme"
+  }
 }
