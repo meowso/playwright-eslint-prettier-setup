@@ -11,7 +11,6 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'plugin:playwright/playwright-test',
         'plugin:prettier/recommended',
-        'plugin:markdown/recommended',
         'plugin:unicorn/recommended',
         'plugin:sonarjs/recommended',
     ],

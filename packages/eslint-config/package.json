@@ -1,6 +1,6 @@
 {
   "name": "@meowsos/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "eslint-config.js",
   "scripts": {
     "clean": "git clean -fXd",
@@ -11,7 +11,7 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@playwright/test": ">= 1.40.1",
+    "@playwright/test": ">= 1.40",
     "@types/node": ">= 20",
     "@typescript-eslint/eslint-plugin": ">= 6",
     "@typescript-eslint/parser": ">= 6",
