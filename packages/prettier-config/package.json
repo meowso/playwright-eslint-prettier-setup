@@ -1,46 +1,16 @@
 {
-  "name": "typescript-playwright-eslint-config",
+  "name": "@meowsos/prettier-config",
   "version": "0.0.1",
-  "main": "index.js",
-  "description": "Modern eslint settings for Playwright Typescript projects",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/meowso/playwright-hero.git"
-  },
-  "keywords": [
-    "playwright",
-    "typescript",
-    "eslint",
-    "eslint-config",
-    "prettier",
-    "eslint-config-prettier",
-    "eslint-plugin-prettier",
-    "eslint-plugin-unicorn",
-    "eslint-plugin-sonarjs",
-    "eslint-plugin-playwright"
-  ],
+  "main": "prettier-config.js",
   "scripts": {
     "clean": "git clean -fXd",
-    "bump": "npx npm-check-updates -u && npm install"
+    "bump": "npx npm-check-updates -u && npm install",
+    "publish-manual": "npm publish"
   },
-  "author": "Meowso <m3au@pm.me> (http://about.me/bpalma)",
-  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
-    "@playwright/test": ">= 1.40.1",
-    "@types/node": ">= 20",
-    "@typescript-eslint/eslint-plugin": ">= 6",
-    "@typescript-eslint/parser": ">= 6",
-    "eslint-config-prettier": ">= 9",
-    "eslint-plugin-playwright": ">= 0",
-    "eslint-plugin-prettier": ">= 5",
-    "eslint-plugin-sonarjs": ">= 0",
-    "eslint-plugin-unicorn": ">= 49",
-    "eslint": ">= 8",
-    "prettier": ">= 3",
-    "typescript": ">= 5"
-  },
-  "bugs": {
-    "url": "https://github.com/meowso/playwright-hero/issues"
-  },
-  "homepage": "https://github.com/meowso/playwright-hero#readme"
+    "prettier": ">= 3"
+  }
 }
