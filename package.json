@@ -1,6 +1,6 @@
 {
   "name": "@meowsos/playwright-setup",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Modern Eslint and Prettier setup for Playwright Typescript projects",
   "workspaces": [
     "packages/*"
@@ -31,21 +31,13 @@
     "access": "public"
   },
   "author": "Meowso <m3au@pm.me> (http://about.me/bpalma)",
+  "contributors": [
+    {
+      "name": "Manonmani ",
+      "url": "https://github.com/johanjordaan"
+    }
+  ],
   "license": "ISC",
-  "peerDependencies": {
-    "@playwright/test": ">= 1.40.1",
-    "@types/node": ">= 20",
-    "@typescript-eslint/eslint-plugin": ">= 6",
-    "@typescript-eslint/parser": ">= 6",
-    "eslint-config-prettier": ">= 9",
-    "eslint-plugin-playwright": ">= 0",
-    "eslint-plugin-prettier": ">= 5",
-    "eslint-plugin-sonarjs": ">= 0",
-    "eslint-plugin-unicorn": ">= 49",
-    "eslint": ">= 8",
-    "prettier": ">= 3",
-    "typescript": ">= 5"
-  },
   "bugs": {
     "url": "https://github.com/meowso/playwright-hero/issues"
   },
