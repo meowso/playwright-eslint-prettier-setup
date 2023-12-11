@@ -1,5 +1,5 @@
 {
-  "name": "@meowso/playwright-hero",
+  "name": "typescript-playwright-eslint-config",
   "version": "0.0.1",
   "description": "Modern eslint settings for Playwright Typescript projects",
   "main": "index.js",
