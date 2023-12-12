@@ -1,2 +1,4 @@
 node_modules
 angry_wife/
+package-lock.json
+yarn-lock.json

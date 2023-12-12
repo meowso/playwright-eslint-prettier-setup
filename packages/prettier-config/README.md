@@ -12,7 +12,7 @@ Modern [Eslint](https://www.npmjs.com/package/eslint) + [Prettier](https://www.n
 
 It tries to be very agnostic while at the same time use all available, very opinionated tools from the community, to enforce and automate code quality standards and conventions.
 
-Check out the mono-repo [@meowsos/playwright-setup](https://www.npmjs.com/package/@meowsos/playwright-setup) for the **rest of the setup** and installation instructions.
+Check out the mono-repo [@meowsos/playwright-eslint-prettier-setup](https://www.npmjs.com/package/@meowsos/playwright-eslint-prettier-setup) for the **rest of the setup** and installation instructions.
 
 ## Table of Contents
 

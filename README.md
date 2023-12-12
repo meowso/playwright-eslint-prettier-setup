@@ -1,35 +1,45 @@
-# @meowsos/playwright-setup
+# @meowsos/playwright-eslint-prettier-setup
 
-![npm (scoped)](https://img.shields.io/npm/v/@meowsos/playwright-setup) ![GitHub issues](https://img.shields.io/github/issues/meowso/playwright-hero)
+![npm (scoped)](https://img.shields.io/npm/v/@meowsos/playwright-eslint-prettier-setup) ![GitHub issues](https://img.shields.io/github/issues/meowso/playwright-hero)
 
 ![Meow](https://bit.ly/fcc-running-cats)
 
 ## Description
 
-Modern [Eslint](https://www.npmjs.com/package/eslint) + [Prettier](https://www.npmjs.com/package/prettier) setup for [Playwright](https://www.npmjs.com/package/playwright) Typescript projects, with [SonarJS](https://www.npmjs.com/package/eslint-plugin-sonarjs) and [ESLint Unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn) plugins.
+Modern [ESLint](https://www.npmjs.com/package/eslint) + [Prettier](https://www.npmjs.com/package/prettier) setup for [Playwright](https://www.npmjs.com/package/playwright) Typescript projects, with [SonarJS](https://www.npmjs.com/package/eslint-plugin-sonarjs) and [ESLint Unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn) plugins.
 
 It tries to be very agnostic while at the same time use all available, very opinionated tools from the community, to enforce and automate code quality standards and conventions.
 
 This mono-repo was inspire in this wonderful article [here](https://blog.logrocket.com/reduce-effort-shared-eslint-prettier-configs/) and aims to be a plug-and-play solution for Microsoft Playwright only code repositories.
 
-## Table of Contents
-
-- [@meowsos/playwright-setup](#meowsosplaywright-setup)
+- [@meowsos/playwright-eslint-prettier-setup](#meowsosplaywright-eslint-prettier-setup)
   - [Description](#description)
-  - [Table of Contents](#table-of-contents)
+  - [Requirements](#requirements)
   - [Usage](#usage)
   - [Recommended Extensions](#recommended-extensions)
   - [Contributing](#contributing)
 
+## Requirements
+
+Before using this package, you need to have a [playwright project](https://www.npmjs.com/package/playwright) in your repository; if you haven't, thy this code:
+
+```bash
+npm init playwright@latest new-project
+```
+
+And it needs to have a **tsconfig.json** file in the root folder; if you haven't got one, try:
+
+```bash
+npx tsc --init
+```
+
 ## Usage
 
-1. Install the package
+1. Install the package as a dev dependency:
 
    ```bash
    npm i -D @meowsos/eslint-config @meowsos/prettier-config
    ```
-
-   Make sure you have a tsconfig.json file in your project and that Typescript is initialized, you can try with `npx tsc --init`.
 
 2. Add the following to your `package.json`: (The rules here are just an example on how to override them if you wish, don't add them.)
 

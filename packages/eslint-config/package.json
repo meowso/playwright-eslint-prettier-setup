@@ -3,7 +3,7 @@
   "version": "1.1.4",
   "main": "eslint-config.js",
   "license": "ISC",
-  "description": "ESLint settings for Eslint + Prettier + Unicorn + Sonar Playwright Typescript projects",
+  "description": "ESLint settings for Playwright Typescript projects with ESLint Prettier Unicorn SonarJS",
   "keywords": [
     "typescript",
     "playwright",

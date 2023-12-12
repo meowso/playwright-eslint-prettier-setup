@@ -26,7 +26,7 @@ To get started with contributing, follow these steps:
 
 Please follow indentation and generic prettier rules.
 
-Thank you for your interest in contributing to @meowsos/playwright-setup! We welcome contributions from the community to help improve our project.
+Thank you for your interest in contributing to @meowsos/playwright-eslint-prettier-setup! We welcome contributions from the community to help improve our project.
 
 ## Submitting a Pull Request
 
