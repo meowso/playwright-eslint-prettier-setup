@@ -10,7 +10,7 @@ Modern [ESLint](https://www.npmjs.com/package/eslint) + [Prettier](https://www.n
 
 It tries to be very agnostic while at the same time use all available, very opinionated tools from the community, to enforce and automate code quality standards and conventions.
 
-This mono-repo was inspire in this wonderful article [here](https://blog.logrocket.com/reduce-effort-shared-eslint-prettier-configs/) and aims to be a plug-and-play solution for Microsoft Playwright only code repositories.
+This mono-repo was inspire in this wonderful article [here](https://blog.logrocket.com/reduce-effort-shared-eslint-prettier-configs/) and aims to be a plug-and-play solution for Playwright only code repositories.
 
 - [@meowsos/playwright-eslint-prettier-setup](#meowsosplaywright-eslint-prettier-setup)
   - [Description](#description)
