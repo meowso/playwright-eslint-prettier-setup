@@ -4,7 +4,7 @@
 
 ![GitHub issues](https://img.shields.io/github/issues/meowso/playwright-hero?style=flat-square)
 
-<!-- ![image](https://placekitten.com/400/300) -->
+![Meow](https://bit.ly/fcc-relaxing-cat)
 
 ## Description
 
@@ -28,21 +28,21 @@ This is a Prettier configuration for Playwright + TypeScript + Prettier projects
 
 1. Install the package:
 
-```bash
-npm install --save-dev @meowsos/prettier-config
-```
+   ```bash
+   npm install --save-dev @meowsos/prettier-config
+   ```
 
 2. Add the following to your `.prettierrc.js` file:
 
-```js
-module.exports = require('@meowsos/prettier-config')
-```
+   ```js
+   module.exports = require('@meowsos/prettier-config')
+   ```
 
 3. Run the following command to lint your code:
 
-```bash
-npx prettier --write .
-```
+   ```bash
+   npx prettier --write .
+   ```
 
 ---
 

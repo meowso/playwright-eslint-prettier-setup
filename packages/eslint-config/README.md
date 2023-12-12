@@ -4,7 +4,7 @@
 
 ![GitHub issues](https://img.shields.io/github/issues/meowso/playwright-hero?style=flat-square)
 
-<!-- ![image](https://placekitten.com/400/300) -->
+![Meow](https://bit.ly/fcc-running-cats)
 
 ## Description
 
@@ -28,33 +28,33 @@ ESLint config for Playwright + TypeScript + Prettier projects, with Unicorn and 
 
 1. Install the package:
 
-```bash
-npm install --save-dev @meowsos/eslint-config
-```
+   ```bash
+   npm install --save-dev @meowsos/eslint-config
+   ```
 
 2. Add the following to your `.eslintrc.js` file:
 
-```js
-module.exports = {
-  extends: ['@meowsos/eslint-config'],
-}
-```
+   ```js
+   module.exports = {
+     extends: ['@meowsos/eslint-config'],
+   }
+   ```
 
 3. Add the following to your `package.json` file:
 
-```json
-{
-  "scripts": {
-    "lint": "eslint . --ext .ts,.tsx"
-  }
-}
-```
+   ```json
+   {
+     "scripts": {
+       "lint": "eslint . --ext .ts,.tsx"
+     }
+   }
+   ```
 
 4. Run the following command to lint your code:
 
-```bash
-npm run lint
-```
+   ```bash
+   npm run lint
+   ```
 
 ---
 

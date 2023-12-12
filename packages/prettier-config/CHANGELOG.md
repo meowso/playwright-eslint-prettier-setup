@@ -1,5 +1,11 @@
 # @meowsos/prettier-config
 
+## 1.1.0
+
+### Minor Changes
+
+- Updating README.md files
+
 ## 1.0.0
 
 ### Major Changes
