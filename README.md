@@ -6,50 +6,79 @@ Modern Eslint + Prettier setup for Playwright Typescript projects
 
 ## Version
 
-0.0.2
+0.0.11
 
-## Scripts
+## Usage
 
-- `clean`: git clean -fXd
-- `bump`: npx npm-check-updates -u && npm install
-- `publish-eslint-config`: npm publish --workspace @meowsos/eslint-config
-- `publish-prettier-config`: npm publish --workspace @meowsos/prettier-config
+1. Install the package
 
-## Repository
+```bash
+npm i -D @meowsos/playwright-setup
+```
 
-[GitHub](https://github.com/meowso/playwright-hero)
+2. Add the following to your `package.json`:
 
-## Author
+```json
+{
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  }
+}
+```
 
-Meowso <m3au@pm.me> [Website](http://about.me/bpalma)
+3. Create a `.eslintrc.js` file in the root of your project with the following:
 
-## License
+```js
+module.exports = {
+  extends: ['@meowsos/playwright-setup'],
+}
+```
 
-ISC
+4. Create a `.prettierrc.js` file in the root of your project with the following:
 
-## Bugs
+```js
+module.exports = require('@meowsos/playwright-setup/prettier.config')
+```
 
-Report bugs at [GitHub Issues](https://github.com/meowso/playwright-hero/issues)
+5. Create a `.eslintignore` file in the root of your project with the following:
 
-## Homepage
+```txt
+node_modules
+dist
+```
 
-[GitHub Homepage](https://github.com/meowso/playwright-hero#readme)
+6. Create a `.prettierignore` file in the root of your project with the following:
 
-## Keywords
+```txt
+node_modules
+dist
+```
 
-playwright, typescript, eslint, eslint-config, prettier, eslint-config-prettier, eslint-plugin-prettier, eslint-plugin-unicorn, eslint-plugin-sonarjs, eslint-plugin-playwright
+7. Create a `.vscode/settings.json` file in the root of your project with the following:
 
-## Peer Dependencies
+```json
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
+```
 
-- @playwright/test: >= 1.40.1
-- @types/node: >= 20
-- @typescript-eslint/eslint-plugin: >= 6
-- @typescript-eslint/parser: >= 6
-- eslint-config-prettier: >= 9
-- eslint-plugin-playwright: >= 0
-- eslint-plugin-prettier: >= 5
-- eslint-plugin-sonarjs: >= 0
-- eslint-plugin-unicorn: >= 49
-- eslint: >= 8
-- prettier: >= 3
-- typescript: >= 5
+8. Create a `.vscode/extensions.json` file in the root of your project with the following:
+
+```json
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ms-playwright.playwright",
+    "ryanrosello-og.playwright-vscode-trace-viewer",
+    "yoavbls.pretty-ts-errors"
+  ]
+}
+```
