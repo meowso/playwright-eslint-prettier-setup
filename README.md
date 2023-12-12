@@ -70,15 +70,20 @@ npx tsc --init
 3. Create a `.eslintignore` file in the root of your project with the following:
 
    ```txt
-   node_modules
-   dist
+   .vscode/
+   node_modules/
+   test-results/
+   reports/
    ```
 
 4. Create a `.prettierignore` file in the root of your project with the following:
 
    ```txt
-   node_modules
-   dist
+   node_modules/
+   reports/
+   test-results/
+   .bash_history
+   *.lock
    ```
 
 5. Create a `.vscode/settings.json` file in the root of your project with the following:
