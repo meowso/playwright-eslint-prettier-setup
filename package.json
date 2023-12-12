@@ -22,8 +22,18 @@
     "eslint-plugin-playwright"
   ],
   "scripts": {
+    "postinstall": "npx install-peerdeps --peer @meowsos/eslint-config && npx install-peerdeps --peer @meowsos/prettier-config",
     "publish-eslint-config": "npm publish --workspace @meowsos/eslint-config",
     "publish-prettier-config": "npm publish --workspace @meowsos/prettier-config"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@meowsos/eslint-config": "^1.0.0",
+    "@meowsos/prettier-config": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=20.9.0",
+    "yarn": ">=1.22.10"
   },
   "publishConfig": {
     "access": "public"
@@ -39,16 +49,5 @@
   "bugs": {
     "url": "https://github.com/meowso/playwright-hero/issues"
   },
-  "homepage": "https://github.com/meowso/playwright-hero#readme",
-  "devDependencies": {
-    "@changesets/cli": "^2.27.1"
-  },
-  "peerDependencies": {
-    "@meowsos/eslint-config": "^1.0.0",
-    "@meowsos/prettier-config": "^1.0.0"
-  },
-  "engines": {
-    "node": ">=20.9.0",
-    "yarn": ">=1.22.10"
-  }
+  "homepage": "https://github.com/meowso/playwright-hero#readme"
 }
