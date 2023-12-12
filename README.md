@@ -13,12 +13,10 @@ It tries to be very agnostic while at the same time use all available, very opin
 
 This mono-repo was inspire in this wonderful article [here](https://blog.logrocket.com/reduce-effort-shared-eslint-prettier-configs/) and aims to be a plug-and-play solution for Microsoft Playwright projects code quality.
 
-## Table of Contents
-
 - [@meowsos/playwright-setup](#meowsosplaywright-setup)
   - [Description](#description)
-  - [Table of Contents](#table-of-contents)
   - [Usage](#usage)
+  - [Recommended Extensions](#recommended-extensions)
   - [Contributing](#contributing)
 
 ## Usage
@@ -26,7 +24,8 @@ This mono-repo was inspire in this wonderful article [here](https://blog.logrock
 1. Install the package
 
    ```bash
-   npm i -D @meowsos/playwright-setup
+   npm i -D @meowsos/eslint-config
+   npm i -D @meowsos/prettier-config
    ```
 
 2. Add the following to your `package.json`:
@@ -38,47 +37,29 @@ This mono-repo was inspire in this wonderful article [here](https://blog.logrock
        "lint:fix": "eslint . --ext .ts --fix",
        "format": "prettier --write .",
        "format:check": "prettier --check ."
+     },
+     "prettier": "@meowsos/prettier-config",
+     "eslintConfig": {
+       "extends": "@meowsos/eslint-config"
      }
    }
    ```
 
-3. Create a `.eslintrc.js` file in the root of your project with the following:
-
-   ```js
-   module.exports = {
-     extends: ['@meowsos/playwright-setup'],
-     rules: {
-       // Add custom rules here
-       // 'playwright/expect-expect': 0,
-       // 'playwright/no-networkidle': 0,
-       // 'playwright/no-skipped-test': 0,
-       // 'playwright/valid-title': 0,
-       // 'unicorn/no-nested-ternary': 'off',
-     },
-   }
-   ```
-
-4. Create a `.prettierrc.js` file in the root of your project with the following:
-
-   ```js
-   module.exports = require('@meowsos/playwright-setup/prettier.config')
-   ```
-
-5. Create a `.eslintignore` file in the root of your project with the following:
+3. Create a `.eslintignore` file in the root of your project with the following:
 
    ```txt
    node_modules
    dist
    ```
 
-6. Create a `.prettierignore` file in the root of your project with the following:
+4. Create a `.prettierignore` file in the root of your project with the following:
 
    ```txt
    node_modules
    dist
    ```
 
-7. Create a `.vscode/settings.json` file in the root of your project with the following:
+5. Create a `.vscode/settings.json` file in the root of your project with the following:
 
    ```json
    {
@@ -90,19 +71,23 @@ This mono-repo was inspire in this wonderful article [here](https://blog.logrock
    }
    ```
 
-8. Create a `.vscode/extensions.json` file in the root of your project with the following:
+## Recommended Extensions
 
-   ```json
-   {
-     "recommendations": [
-       "dbaeumer.vscode-eslint",
-       "esbenp.prettier-vscode",
-       "ms-playwright.playwright",
-       "ryanrosello-og.playwright-vscode-trace-viewer",
-       "yoavbls.pretty-ts-errors"
-     ]
-   }
-   ```
+We recommend the following extensions for VSCode, which will be automatically suggested to be installed if you add the following setup.
+
+Create a `.vscode/extensions.json` file in the root of your project with the following:
+
+```json
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ms-playwright.playwright",
+    "ryanrosello-og.playwright-vscode-trace-viewer",
+    "yoavbls.pretty-ts-errors"
+  ]
+}
+```
 
 ## Contributing
 
