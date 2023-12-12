@@ -8,10 +8,11 @@
 
 ## Description
 
-Modern Eslint + Prettier setup for Microsoft Playwright Typescript projects, with SonarJs and Unicorn plugins.
+Modern [Eslint](https://www.npmjs.com/package/eslint) + [Prettier](https://www.npmjs.com/package/prettier) setup for [Playwright](https://www.npmjs.com/package/playwright) Typescript projects, with [SonarJS](https://www.npmjs.com/package/eslint-plugin-sonarjs) and [ESLint Unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn) plugins.
+
 It tries to be very agnostic while at the same time use all available, very opinionated tools from the community, to enforce code standards.
 
-This mono-repo was inspire in this wonderful article [here](https://blog.logrocket.com/reduce-effort-shared-eslint-prettier-configs/) and aims to be a plug-and-play solution for Microsoft Playwright projects code quality.
+This mono-repo was inspire in this wonderful article [here](https://blog.logrocket.com/reduce-effort-shared-eslint-prettier-configs/) and aims to be a plug-and-play solution for Microsoft Playwright only code repo projects, to enforce and automate code quality conventions.
 
 - [@meowsos/playwright-setup](#meowsosplaywright-setup)
   - [Description](#description)

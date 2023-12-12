@@ -10,6 +10,14 @@
 
 This is a Prettier configuration for Playwright + TypeScript + Prettier projects, with Unicorn and Sonar plugins.
 
+ESLint config for Playwright + TypeScript + Prettier projects, with Unicorn and Sonar plugins.
+
+Modern [Eslint](https://www.npmjs.com/package/eslint) + [Prettier](https://www.npmjs.com/package/prettier) setup for [Playwright](https://www.npmjs.com/package/playwright) Typescript projects, with [SonarJS](https://www.npmjs.com/package/eslint-plugin-sonarjs) and [ESLint Unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn) plugins.
+
+It tries to be very agnostic while at the same time use all available, very opinionated tools from the community, to enforce code standards.
+
+Check out the mono-repo [@meowsos/playwright-setup](https://www.npmjs.com/package/@meowsos/playwright-setup) **for the rest of the setup**.
+
 ## Table of Contents
 
 - [@meowsos/prettier-config](#meowsosprettier-config)
