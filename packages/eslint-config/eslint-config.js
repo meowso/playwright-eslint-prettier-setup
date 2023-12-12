@@ -16,6 +16,14 @@ module.exports = {
   ],
   rules: {
     '@typescript-eslint/no-floating-promises': 'error',
+    'sonarjs/cognitive-complexity': 'error',
+    'sonarjs/no-identical-expressions': 'error',
+    // disable some rules because I don't like them
+    'playwright/expect-expect': 0,
+    'playwright/no-networkidle': 0,
+    'playwright/no-skipped-test': 0,
+    'playwright/valid-title': 0,
+    'unicorn/no-nested-ternary': 'off',
   },
   parserOptions: {
     project: './tsconfig.json',

@@ -1,6 +1,6 @@
 {
   "name": "@meowsos/eslint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "eslint-config.js",
   "scripts": {
     "clean": "git clean -fXd",
