@@ -1,6 +1,6 @@
 {
   "name": "@meowsos/playwright-setup",
-  "version": "0.0.16",
+  "version": "0.0.18",
   "description": "Modern Eslint and Prettier setup for Playwright Typescript projects",
   "workspaces": [
     "packages/*"
@@ -22,14 +22,14 @@
     "eslint-plugin-playwright"
   ],
   "scripts": {
-    "postinstall": "npx install-peerdeps --peer @meowsos/eslint-config && npx install-peerdeps --peer @meowsos/prettier-config",
+    "peerdeps": "npx install-peerdeps @meowsos/eslint-config && npx install-peerdeps @meowsos/prettier-config",
     "publish-eslint-config": "npm publish --workspace @meowsos/eslint-config",
     "publish-prettier-config": "npm publish --workspace @meowsos/prettier-config"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
-    "@meowsos/eslint-config": "^1.0.0",
-    "@meowsos/prettier-config": "^1.0.0"
+    "@meowsos/eslint-config": "^1.1.1",
+    "@meowsos/prettier-config": "^1.1.1"
   },
   "engines": {
     "node": ">=20.9.0",
@@ -49,5 +49,19 @@
   "bugs": {
     "url": "https://github.com/meowso/playwright-hero/issues"
   },
-  "homepage": "https://github.com/meowso/playwright-hero#readme"
+  "homepage": "https://github.com/meowso/playwright-hero#readme",
+  "peerDependencies": {
+    "@playwright/test": "1.40",
+    "@types/node": "^20.10.4",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-playwright": "^0.20.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-sonarjs": "^0.23.0",
+    "eslint-plugin-unicorn": "^49.0.0",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
+  }
 }
