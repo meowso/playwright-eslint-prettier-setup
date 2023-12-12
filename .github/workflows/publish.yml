@@ -11,12 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '20.x'
-          cache: 'pnpm'
+      - uses: oven-sh/setup-bun@v1
 
-      - run: pnpm install --from-lock-file
+      - run: bun install
       - name: Create Release Pull Request or Publish
         id: changesets
         uses: changesets/action@v1.2.0
