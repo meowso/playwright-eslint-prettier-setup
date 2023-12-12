@@ -45,7 +45,8 @@ ESLint config for Playwright + TypeScript + Prettier projects, with Unicorn and 
    ```json
    {
      "scripts": {
-       "lint": "eslint . --ext .ts,.tsx"
+       "lint": "eslint . --ext .ts,.tsx",
+       "lint:fix": "eslint . --ext .ts,.tsx --fix"
      }
    }
    ```

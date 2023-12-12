@@ -1,7 +1,7 @@
 {
   "name": "@meowsos/playwright-setup",
-  "version": "0.0.20",
-  "description": "Modern Eslint and Prettier setup for Playwright Typescript projects",
+  "version": "0.0.21",
+  "description": "Eslint + Prettier + Unicorn + Sonar setup for Playwright Typescript projects",
   "workspaces": [
     "packages/*"
   ],
@@ -10,8 +10,8 @@
     "url": "git+https://github.com/meowso/playwright-hero.git"
   },
   "keywords": [
-    "playwright",
     "typescript",
+    "playwright",
     "eslint",
     "eslint-config",
     "prettier",
@@ -19,7 +19,25 @@
     "eslint-plugin-prettier",
     "eslint-plugin-unicorn",
     "eslint-plugin-sonarjs",
-    "eslint-plugin-playwright"
+    "eslint-plugin-playwright",
+    "code quality",
+    "microsoft",
+    "vscode",
+    "javascript",
+    "front-end",
+    "automation",
+    "testing",
+    "web development",
+    "typescript framework",
+    "web testing",
+    "playwright javascript testing",
+    "playwright code quality",
+    "typescript linting",
+    "prettier config",
+    "sonarqube integration",
+    "unicorn linter",
+    "visual studio code extensions",
+    "recommendations"
   ],
   "scripts": {
     "peerdeps": "npx install-peerdeps @meowsos/eslint-config && npx install-peerdeps @meowsos/prettier-config",
