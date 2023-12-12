@@ -24,8 +24,7 @@ This mono-repo was inspire in this wonderful article [here](https://blog.logrock
 1. Install the package
 
    ```bash
-   npm i -D @meowsos/eslint-config
-   npm i -D @meowsos/prettier-config
+   npm i -D @meowsos/eslint-config @meowsos/prettier-config
    ```
 
 2. Add the following to your `package.json`:
@@ -40,7 +39,14 @@ This mono-repo was inspire in this wonderful article [here](https://blog.logrock
      },
      "prettier": "@meowsos/prettier-config",
      "eslintConfig": {
-       "extends": "@meowsos/eslint-config"
+       "extends": "@meowsos/eslint-config",
+       "rules": {
+         "playwright/expect-expect": 0,
+         "playwright/no-networkidle": 0,
+         "playwright/no-skipped-test": 0,
+         "playwright/valid-title": 0,
+         "unicorn/no-nested-ternary": "off"
+       }
      }
    }
    ```
