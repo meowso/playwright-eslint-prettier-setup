@@ -27,6 +27,8 @@ This mono-repo was inspire in this wonderful article [here](https://blog.logrock
    npm i -D @meowsos/eslint-config @meowsos/prettier-config
    ```
 
+   Make sure you have a tsconfig.json file in your project and that Typescript is initialized, you can try with `npx tsc --init`.
+
 2. Add the following to your `package.json`:
 
    ```json
