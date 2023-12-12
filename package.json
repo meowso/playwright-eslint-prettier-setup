@@ -5,25 +5,14 @@
   "workspaces": [
     "packages/*"
   ],
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/meowso/playwright-hero.git"
   },
-  "keywords": [
-    "playwright",
-    "typescript",
-    "eslint",
-    "eslint-config",
-    "prettier",
-    "eslint-config-prettier",
-    "eslint-plugin-prettier",
-    "eslint-plugin-unicorn",
-    "eslint-plugin-sonarjs",
-    "eslint-plugin-playwright"
-  ],
+  "keywords": [ "playwright", "typescript", "eslint", "eslint-config", "prettier", "eslint-config-prettier", "eslint-plugin-prettier", "eslint-plugin-unicorn", "eslint-plugin-sonarjs", "eslint-plugin-playwright"],
   "scripts": {
-    "clean": "git clean -fXd",
-    "bump": "npx npm-check-updates -u && npm install",
+    "peerdeps": "npx install-peerdeps --dev @meowsos/eslint-config && npx install-peerdeps --dev @meowsos/prettier-config",
     "publish-eslint-config": "npm publish --workspace @meowsos/eslint-config",
     "publish-prettier-config": "npm publish --workspace @meowsos/prettier-config"
   },
@@ -41,5 +30,12 @@
   "bugs": {
     "url": "https://github.com/meowso/playwright-hero/issues"
   },
-  "homepage": "https://github.com/meowso/playwright-hero#readme"
+  "homepage": "https://github.com/meowso/playwright-hero#readme",
+  "dependencies": {
+    "@changesets/cli": "^2.27.1"
+  },
+  "engines": {
+    "node": ">=20.9.0",
+    "yarn": ">=1.22.10"
+  }
 }

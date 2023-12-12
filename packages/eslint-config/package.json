@@ -2,9 +2,20 @@
   "name": "@meowsos/eslint-config",
   "version": "0.0.5",
   "main": "eslint-config.js",
+  "license": "ISC",
+  "description": "ESLint config for MeowSOS",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-config-meowsos",
+    "meowsos",
+    "meowsos/eslint-config",
+    "meowsos/eslint-config-meowsos"
+  ],
   "scripts": {
-    "clean": "git clean -fXd",
+    "clean": "npx delete-empty && git clean -fXd",
     "bump": "npx npm-check-updates -u && npm install",
+    "docs:dependencies": "npx package-json-to-readme package.json",
     "publish-manual": "npm publish"
   },
   "publishConfig": {

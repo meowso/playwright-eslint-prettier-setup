@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "main": "prettier-config.json",
   "scripts": {
-    "clean": "git clean -fXd",
+    "clean": "npx delete-empty && git clean -fXd",
     "bump": "npx npm-check-updates -u && npm install",
     "publish-manual": "npm publish"
   },
