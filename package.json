@@ -1,6 +1,6 @@
 {
   "name": "@meowsos/playwright-setup",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Modern Eslint and Prettier setup for Playwright Typescript projects",
   "workspaces": [
     "packages/*"
@@ -33,8 +33,8 @@
   "author": "Meowso <m3au@pm.me> (http://about.me/bpalma)",
   "contributors": [
     {
-      "name": "Manonmani ",
-      "url": "https://github.com/johanjordaan"
+      "name": "Manonmani Ramu",
+      "email": "mananmani.ramu@gmail.com"
     }
   ],
   "license": "ISC",
