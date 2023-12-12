@@ -1,6 +1,6 @@
 # @meowsos/prettier-config
 
-![npm](https://img.shields.io/npm/v/@meowsos/prettier-config) ![GitHub issues](https://img.shields.io/github/issues/meowso/playwright-hero)
+![npm (scoped)](https://img.shields.io/npm/v/@meowsos/prettier-config) ![License](https://img.shields.io/npm/l/@meowsos/prettier-config) ![GitHub issues](https://img.shields.io/github/issues/meowso/playwright-eslint-prettier-setup) ![GitHub stars](https://img.shields.io/github/stars/meowso/meowsos-playwright-setup) ![GitHub pull requests](https://img.shields.io/github/issues-pr/meowso/playwright-eslint-prettier-setup) ![GitHub last commit](https://img.shields.io/github/last-commit/meowso/playwright-eslint-prettier-setup)
 
 ![Meow](https://bit.ly/fcc-relaxing-cat)
 
@@ -14,11 +14,8 @@ It tries to be very agnostic while at the same time use all available, very opin
 
 Check out the mono-repo [@meowsos/playwright-eslint-prettier-setup](https://www.npmjs.com/package/@meowsos/playwright-eslint-prettier-setup) for the **rest of the setup** and installation instructions.
 
-## Table of Contents
-
 - [@meowsos/prettier-config](#meowsosprettier-config)
   - [Description](#description)
-  - [Table of Contents](#table-of-contents)
   - [Usage](#usage)
   - [Peer Dependencies](#peer-dependencies)
   - [Homepage](#homepage)
@@ -27,6 +24,8 @@ Check out the mono-repo [@meowsos/playwright-eslint-prettier-setup](https://www.
   - [Contributors](#contributors)
   - [Development](#development)
     - [Scripts](#scripts)
+
+---
 
 ## Usage
 

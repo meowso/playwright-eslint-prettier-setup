@@ -1,6 +1,6 @@
 {
   "name": "@meowsos/prettier-config",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "main": "prettier-config.json",
   "license": "ISC",
   "description": "Prettier settings for Playwright Typescript projects with ESLint Prettier Unicorn SonarJS",

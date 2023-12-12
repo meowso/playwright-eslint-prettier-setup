@@ -1,6 +1,6 @@
 # @meowsos/playwright-eslint-prettier-setup
 
-![npm (scoped)](https://img.shields.io/npm/v/@meowsos/playwright-eslint-prettier-setup) ![GitHub issues](https://img.shields.io/github/issues/meowso/playwright-hero)
+![npm (scoped)](https://img.shields.io/npm/v/@meowsos/playwright-eslint-prettier-setup) ![License](https://img.shields.io/npm/l/@meowsos/playwright-eslint-prettier-setup) ![GitHub issues](https://img.shields.io/github/issues/meowso/playwright-hero) ![GitHub stars](https://img.shields.io/github/stars/meowso/meowsos-playwright-setup) ![GitHub pull requests](https://img.shields.io/github/issues-pr/meowso/playwright-hero) ![GitHub last commit](https://img.shields.io/github/last-commit/meowso/playwright-hero)
 
 ![Meow](https://bit.ly/fcc-running-cats)
 
@@ -18,6 +18,8 @@ This mono-repo was inspire in this wonderful article [here](https://blog.logrock
   - [Usage](#usage)
   - [Recommended Extensions](#recommended-extensions)
   - [Contributing](#contributing)
+
+---
 
 ## Requirements
 

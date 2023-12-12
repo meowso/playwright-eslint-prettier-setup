@@ -1,5 +1,11 @@
 # @meowsos/prettier-config
 
+## 1.1.5
+
+### Patch Changes
+
+- Updating documentation
+
 ## 1.1.4
 
 ### Patch Changes
