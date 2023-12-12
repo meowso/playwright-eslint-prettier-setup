@@ -1,5 +1,11 @@
 # @meowsos/eslint-config
 
+## 1.1.4
+
+### Patch Changes
+
+- Updating documentation, and ever
+
 ## 1.1.3
 
 ### Patch Changes

@@ -1,8 +1,6 @@
 # @meowsos/eslint-config
 
-![npm](https://img.shields.io/npm/v/@meowsos/eslint-config)
-
-![GitHub issues](https://img.shields.io/github/issues/meowso/playwright-hero)
+![npm](https://img.shields.io/npm/v/@meowsos/eslint-config) ![GitHub issues](https://img.shields.io/github/issues/meowso/playwright-hero)
 
 ![Meow](https://bit.ly/fcc-running-cats)
 
@@ -12,9 +10,9 @@ ESLint config for Playwright + TypeScript + Prettier projects, with Unicorn and 
 
 Modern [Eslint](https://www.npmjs.com/package/eslint) + [Prettier](https://www.npmjs.com/package/prettier) setup for [Playwright](https://www.npmjs.com/package/playwright) Typescript projects, with [SonarJS](https://www.npmjs.com/package/eslint-plugin-sonarjs) and [ESLint Unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn) plugins.
 
-It tries to be very agnostic while at the same time use all available, very opinionated tools from the community, to enforce code standards.
+It tries to be very agnostic while at the same time use all available, very opinionated tools from the community, to enforce and automate code quality standards and conventions.
 
-Check out the mono-repo [@meowsos/playwright-setup](https://www.npmjs.com/package/@meowsos/playwright-setup) **for the rest of the setup**.
+Check out the mono-repo [@meowsos/playwright-setup](https://www.npmjs.com/package/@meowsos/playwright-setup) for the **rest of the setup** and installation instructions.
 
 ## Table of Contents
 
