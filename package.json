@@ -1,6 +1,6 @@
 {
   "name": "@meowsos/playwright-setup",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "Eslint + Prettier + Unicorn + Sonar setup for Playwright Typescript projects",
   "workspaces": [
     "packages/*"

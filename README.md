@@ -29,7 +29,7 @@ This mono-repo was inspire in this wonderful article [here](https://blog.logrock
 
    Make sure you have a tsconfig.json file in your project and that Typescript is initialized, you can try with `npx tsc --init`.
 
-2. Add the following to your `package.json`:
+2. Add the following to your `package.json`: (The rules here are just an example on how to override them if you wish, don't add them.)
 
    ```json
    {
