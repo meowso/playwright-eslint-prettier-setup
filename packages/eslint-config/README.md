@@ -1,8 +1,8 @@
 # @meowsos/eslint-config
 
-![npm](https://img.shields.io/npm/v/@meowsos/eslint-config?style=flat-square)
+![npm](https://img.shields.io/npm/v/@meowsos/eslint-config)
 
-![GitHub issues](https://img.shields.io/github/issues/meowso/playwright-hero?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/meowso/playwright-hero)
 
 ![Meow](https://bit.ly/fcc-running-cats)
 

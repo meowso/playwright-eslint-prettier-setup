@@ -1,5 +1,11 @@
 # @meowsos/eslint-config
 
+## 1.1.1
+
+### Patch Changes
+
+- Updating documentation and peerDependencies
+
 ## 1.1.0
 
 ### Minor Changes

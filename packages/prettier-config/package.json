@@ -1,6 +1,6 @@
 {
   "name": "@meowsos/prettier-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "prettier-config.json",
   "scripts": {
     "clean": "npx delete-empty && git clean -fXd",

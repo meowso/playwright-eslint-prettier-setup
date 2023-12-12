@@ -1,14 +1,17 @@
 # @meowsos/playwright-setup
 
-![npm (scoped)](https://img.shields.io/npm/v/@meowsos/playwright-setup?style=for-the-badge)
+![npm (scoped)](https://img.shields.io/npm/v/@meowsos/playwright-setup)
 
-![GitHub issues](https://img.shields.io/github/issues/meowso/playwright-hero?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/meowso/playwright-hero)
 
 ![Meow](https://bit.ly/fcc-running-cats)
 
 ## Description
 
-Modern Eslint + Prettier setup for Playwright Typescript projects, with SonarJs and Unicorn plugins.
+Modern Eslint + Prettier setup for Microsoft Playwright Typescript projects, with SonarJs and Unicorn plugins.
+It tries to be very agnostic while at the same time use all available, very opinionated tools from the community, to enforce code standards.
+
+This mono-repo was inspire in this wonderful article [here](https://blog.logrocket.com/reduce-effort-shared-eslint-prettier-configs/) and aims to be a plug-and-play solution for Microsoft Playwright projects code quality.
 
 ## Table of Contents
 
@@ -44,6 +47,14 @@ Modern Eslint + Prettier setup for Playwright Typescript projects, with SonarJs 
    ```js
    module.exports = {
      extends: ['@meowsos/playwright-setup'],
+     rules: {
+       // Add custom rules here
+       // 'playwright/expect-expect': 0,
+       // 'playwright/no-networkidle': 0,
+       // 'playwright/no-skipped-test': 0,
+       // 'playwright/valid-title': 0,
+       // 'unicorn/no-nested-ternary': 'off',
+     },
    }
    ```
 

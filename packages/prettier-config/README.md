@@ -1,8 +1,8 @@
 # @meowsos/prettier-config
 
-![npm](https://img.shields.io/npm/v/@meowsos/prettier-config?style=flat-square)
+![npm](https://img.shields.io/npm/v/@meowsos/prettier-config)
 
-![GitHub issues](https://img.shields.io/github/issues/meowso/playwright-hero?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/meowso/playwright-hero)
 
 ![Meow](https://bit.ly/fcc-relaxing-cat)
 

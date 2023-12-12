@@ -1,6 +1,6 @@
 {
   "name": "@meowsos/playwright-setup",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Modern Eslint and Prettier setup for Playwright Typescript projects",
   "workspaces": [
     "packages/*"
@@ -22,7 +22,6 @@
     "eslint-plugin-playwright"
   ],
   "scripts": {
-    "peerdeps": "npx install-peerdeps --dev @meowsos/eslint-config && npx install-peerdeps --dev @meowsos/prettier-config",
     "publish-eslint-config": "npm publish --workspace @meowsos/eslint-config",
     "publish-prettier-config": "npm publish --workspace @meowsos/prettier-config"
   },
@@ -41,8 +40,12 @@
     "url": "https://github.com/meowso/playwright-hero/issues"
   },
   "homepage": "https://github.com/meowso/playwright-hero#readme",
-  "dependencies": {
+  "devDependencies": {
     "@changesets/cli": "^2.27.1"
+  },
+  "peerDependencies": {
+    "@meowsos/eslint-config": "^1.0.0",
+    "@meowsos/prettier-config": "^1.0.0"
   },
   "engines": {
     "node": ">=20.9.0",
