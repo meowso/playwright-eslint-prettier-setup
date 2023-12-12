@@ -4,7 +4,7 @@
 
 ![GitHub issues](https://img.shields.io/github/issues/meowso/playwright-hero?style=flat-square)
 
-![image](https://placekitten.com/400/300)
+<!-- ![image](https://placekitten.com/400/300) -->
 
 ## Description
 

@@ -2,7 +2,7 @@ name: Publish
 on:
   push:
     branches:
-      - "main"
+      - 'main'
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
@@ -10,10 +10,23 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: oven-sh/setup-bun@v1
+      - name: Checkout Repo
+        uses: actions/checkout@v3
 
-      - run: bun install
-      - name: Create Release Pull Request or Publish
-        id: changesets
-        uses: changesets/action@v1.2.0
+      - name: Setup Node.js 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+
+      - name: Install Dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Create Release Pull Request
+        uses: changesets/action@v1
+        with:
+          publish: bun changeset publish
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
