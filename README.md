@@ -1,8 +1,23 @@
 # @meowsos/playwright-setup
 
+![npm (scoped)](https://img.shields.io/npm/v/@meowsos/playwright-setup?style=for-the-badge)
+
+![GitHub issues](https://img.shields.io/github/issues/meowso/playwright-hero?style=for-the-badge)
+
+![image](https://placekitten.com/400/300)
+
 ## Description
 
-Modern Eslint + Prettier setup for Playwright Typescript projects
+Modern Eslint + Prettier setup for Playwright Typescript projects, with SonarJs and Unicorn plugins.
+
+## Table of Contents
+
+- [@meowsos/playwright-setup](#meowsosplaywright-setup)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Version](#version)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
 
 ## Version
 
@@ -82,3 +97,7 @@ dist
   ]
 }
 ```
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.

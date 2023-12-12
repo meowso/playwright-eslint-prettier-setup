@@ -10,12 +10,25 @@
     "eslint-config-meowsos",
     "meowsos",
     "meowsos/eslint-config",
-    "meowsos/eslint-config-meowsos"
+    "meowsos/eslint-config-meowsos",
+    "playwright",
+    "playwright-test",
+    "typescript",
+    "typescript-eslint",
+    "typescript-eslint/eslint-plugin",
+    "typescript-eslint/parser"
   ],
+  "author": "Meowso <m3au@pm.me> (http://about.me/bpalma)",
+  "contributors": [
+    {
+      "name": "Manonmani Ramu",
+      "email": "mananmani.ramu@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/meowso/playwright-hero#readme",
   "scripts": {
     "clean": "npx delete-empty && git clean -fXd",
     "bump": "npx npm-check-updates -u && npm install",
-    "docs:dependencies": "npx package-json-to-readme package.json",
     "publish-manual": "npm publish"
   },
   "publishConfig": {
