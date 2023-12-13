@@ -1,5 +1,11 @@
 # @meowsos/prettier-config
 
+## 1.1.7
+
+### Patch Changes
+
+- update api keyword
+
 ## 1.1.6
 
 ### Patch Changes

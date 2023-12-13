@@ -1,6 +1,6 @@
 {
   "name": "@meowsos/playwright-eslint-prettier-setup",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Developer setup for Playwright Typescript projects with ESLint Prettier Unicorn SonarJS",
   "workspaces": [
     "packages/*"
@@ -25,7 +25,7 @@
     "javascript",
     "front-end",
     "automation",
-    "test testing",
+    "api testing",
     "web development",
     "typescript framework",
     "web testing",
