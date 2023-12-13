@@ -1,6 +1,6 @@
 {
   "name": "@meowsos/eslint-config",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "main": "eslint-config.js",
   "license": "ISC",
   "description": "ESLint settings for Playwright Typescript projects with ESLint Prettier Unicorn SonarJS",
@@ -20,7 +20,7 @@
     "javascript",
     "front-end",
     "automation",
-    "test testing",
+    "api testing",
     "web development",
     "typescript framework",
     "web testing",
