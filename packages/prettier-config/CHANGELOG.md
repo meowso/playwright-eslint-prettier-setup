@@ -1,5 +1,11 @@
 # @meowsos/prettier-config
 
+## 1.1.6
+
+### Patch Changes
+
+- Updating keywords on package.json
+
 ## 1.1.5
 
 ### Patch Changes
