@@ -42,6 +42,7 @@
   ],
   "homepage": "https://github.com/meowso/playwright-hero#readme",
   "scripts": {
+    "build": "tsc .",
     "clean": "npx delete-empty && git clean -fXd",
     "bump": "npx npm-check-updates -u && npm install",
     "publish-manual": "npm publish"

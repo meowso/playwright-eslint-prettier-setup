@@ -1,5 +1,4 @@
-'use strict'
-module.exports = {
+const config = {
   parser: '@typescript-eslint/parser',
   globals: {
     MyGlobal: true,
@@ -23,3 +22,5 @@ module.exports = {
     project: './tsconfig.json',
   },
 }
+
+export default config

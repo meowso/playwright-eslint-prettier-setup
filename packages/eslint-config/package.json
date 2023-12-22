@@ -1,7 +1,7 @@
 {
   "name": "@meowsos/eslint-config",
   "version": "1.1.8",
-  "main": "eslint-config.js",
+  "main": "dist/eslint-config.js",
   "license": "ISC",
   "description": "ESLint settings for Playwright Typescript projects with ESLint Prettier Unicorn SonarJS",
   "keywords": [
@@ -42,6 +42,7 @@
   ],
   "homepage": "https://github.com/meowso/playwright-hero#readme",
   "scripts": {
+    "build": "tsc .",
     "clean": "npx delete-empty && git clean -fXd",
     "bump": "npx npm-check-updates -u && npm install",
     "publish-manual": "npm publish"
