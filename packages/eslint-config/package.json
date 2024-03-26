@@ -1,6 +1,6 @@
 {
   "name": "@meowsos/eslint-config",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "main": "dist/eslint-config.js",
   "license": "ISC",
   "description": "ESLint settings for Playwright Typescript projects with ESLint Prettier Unicorn SonarJS",
